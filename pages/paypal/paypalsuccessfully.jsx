@@ -30,9 +30,9 @@ const paysuccessfully = () => {
                   Now you can provide other links to our team so that can
                   register them in your profile.
                   <br />
-                  We will be contacting you through WhatsApp to be able to
-                  corroborate that you have actually purchased our service
-                  premium.
+                  We will be contacting you through WhatsApp(+57 3178249789) to
+                  be able to corroborate that you have actually purchased our
+                  service premium.
                   <br />
                   <br />
                   We will also make sure to promote more intensively your

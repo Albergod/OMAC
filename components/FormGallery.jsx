@@ -60,8 +60,8 @@ const FormGallery = () => {
       data["pay"] = true;
 
       const response = await fetch(
-        "http://localhost:7000/api/paypal/pay",
-        // "https://omas.onrender.com/api/paypal/pay",
+        "https://omas.onrender.com/api/paypal/pay",
+        // "http://localhost:7000/api/paypal/pay",
         {
           headers: { "Content-Type": "application/json" },
           method: "POST",

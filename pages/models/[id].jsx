@@ -23,8 +23,8 @@ const ModelProfile = ({ model }) => {
 export async function getServerSideProps(context) {
   const idModel = context.params.id;
   const response = await axios.get(
-    // "https://omas.onrender.com/api/models/getone/" + idModel
-    "http://localhost:7000/api/models/getone/" + idModel
+    "https://omas.onrender.com/api/models/getone/" + idModel
+    // "http://localhost:7000/api/models/getone/" + idModel
   );
   const model = await response.data;
   return {

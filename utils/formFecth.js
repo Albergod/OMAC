@@ -1,8 +1,8 @@
 export const FORMFETCH = async (date) => {
   try {
     const response = await fetch(
-      "http://localhost:7000/api/models/createnewmodel-admin",
-      // "https://omas.onrender.com/api/models/createnewmodel-admin",
+      "https://omas.onrender.com/api/models/createnewmodel-admin",
+      // "http://localhost:7000/api/models/createnewmodel-admin",
       {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(date),

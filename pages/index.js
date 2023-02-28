@@ -26,8 +26,8 @@ export default Home;
 
 export async function getServerSideProps() {
   const response = await axios.get(
-    "http://localhost:7000/api/models/all"
-    // "https://omas.onrender.com/api/models/all"
+    "https://omas.onrender.com/api/models/all"
+    // "http://localhost:7000/api/models/all"
   );
 
   const models = await response.data;
